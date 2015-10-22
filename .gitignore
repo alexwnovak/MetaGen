@@ -1,0 +1,32 @@
+[Oo]bj/
+[Bb]in/
+*.suo
+*.user
+TestResults
+*.vspscc
+*.vssscc
+*.dotCover
+*.ncrunchsolution
+*.crunchsolution*
+*_Resharper*
+*.vsmdi
+*.ncrunchproject
+.gitconfig
+**/.vs/
+
+#Ignore packages
+[Pp]ackages/
+#Need to include the appconfigtransform package because it includes a .target
+that the project needs to load
+![Pp]ackages/*AppConfigTransform*
+*.appx
+**/AppPackages/Loop*/
+**/AppPackages/*.appxupload
+*.guide
+
+
+#Beyond Compare Ignores
+*.orig
+
+# a cache file related to Nuget3
+project.lock.json
